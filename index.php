@@ -305,7 +305,7 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-	define('LIBPATH', BASEPATH.'../../lib');
+	define('LIBPATH', BASEPATH.'../../');
 
 /*
  * --------------------------------------------------------------------
