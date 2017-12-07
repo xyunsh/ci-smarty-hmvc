@@ -97,7 +97,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = 'src/lib/CodeIgniter-3.1.6/system';
+	$system_path = 'src/lib/frameworks/CodeIgniter-3.1.6/system';
 
 /*
  *---------------------------------------------------------------
@@ -305,7 +305,7 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-	define('LIBPATH', BASEPATH.'../../');
+	define('LIBPATH', BASEPATH.'../../../');
 
 /*
  * --------------------------------------------------------------------

@@ -13,7 +13,7 @@ if (!defined('BASEPATH')) {exit('No direct script access allowed');
  * @link        http://www.coolphptools.com/codeigniter-smarty
  */
 
-require_once (LIBPATH . 'smarty-3.1.30/libs/Smarty.class.php');
+require_once (LIBPATH . 'frameworks/smarty-3.1.30/libs/Smarty.class.php');
 
 class CI_Smarty extends Smarty {
     public $template_ext = '.html';

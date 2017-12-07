@@ -4,7 +4,7 @@ if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 }
 
-function isInteger($x) {
+function is_integer($x) {
     return (is_numeric($x) ? intval($x) == $x : false);
 }
 
